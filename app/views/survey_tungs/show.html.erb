@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @survey_tung.title %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @survey_tung.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_survey_tung_path(@survey_tung) %> |
+<%= link_to 'Back', survey_tungs_path %>

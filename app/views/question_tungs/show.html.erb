@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @question_tung.content %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @question_tung.type %>
+</p>
+
+<p>
+  <b>Survey tung:</b>
+  <%= @question_tung.survey_tung_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_question_tung_path(@question_tung) %> |
+<%= link_to 'Back', question_tungs_path %>

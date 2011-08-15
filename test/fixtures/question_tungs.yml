@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  content: MyText
+  type: MyString
+  survey_tung_id: 1
+
+two:
+  content: MyText
+  type: MyString
+  survey_tung_id: 1

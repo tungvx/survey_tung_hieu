@@ -1,0 +1,2 @@
+module QuestionTungsHelper
+end

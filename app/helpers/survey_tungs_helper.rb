@@ -1,0 +1,2 @@
+module SurveyTungsHelper
+end

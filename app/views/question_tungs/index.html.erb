@@ -1,0 +1,27 @@
+<h1>Listing question_tungs</h1>
+
+<table>
+  <tr>
+    <th>Content</th>
+    <th>Type</th>
+    <th>Survey tung</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @question_tungs.each do |question_tung| %>
+  <tr>
+    <td><%= question_tung.content %></td>
+    <td><%= question_tung.type %></td>
+    <td><%= question_tung.survey_tung_id %></td>
+    <td><%= link_to 'Show', question_tung %></td>
+    <td><%= link_to 'Edit', edit_question_tung_path(question_tung) %></td>
+    <td><%= link_to 'Destroy', question_tung, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Question tung', new_question_tung_path %>

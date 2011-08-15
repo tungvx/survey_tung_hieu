@@ -1,4 +1,10 @@
 Survey::Application.routes.draw do
+  resources :answers
+
+  resources :question_tungs
+
+  resources :survey_tungs
+
   devise_for :users
 
   root :to => "home#index"

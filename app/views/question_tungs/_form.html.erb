@@ -1,0 +1,29 @@
+<%= form_for(@question_tung) do |f| %>
+  <% if @question_tung.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@question_tung.errors.count, "error") %> prohibited this question_tung from being saved:</h2>
+
+      <ul>
+      <% @question_tung.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :content %><br />
+    <%= f.text_area :content %>
+  </div>
+  <div class="field">
+    <%= f.label :type %><br />
+    <%= f.text_field :type %>
+  </div>
+  <div class="field">
+    <%= f.label :survey_tung_id %><br />
+    <%= f.text_field :survey_tung_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
