@@ -5,6 +5,17 @@
   <%= @survey_tung.title %>
 </p>
 
+<ol>  
+  <% for question in @survey_tung.question_tungs %>  
+  <li><%= h question.content %></li>  
+  <ul>  
+    <% for answer in question.answers %>  
+      <li><%= h answer.content %></li>  
+    <% end %>  
+  </ul> 
+  <% end %>  
+</ol> 
+
 <p>
   <b>User:</b>
   <%= @survey_tung.user_id %>
@@ -12,4 +23,5 @@
 
 
 <%= link_to 'Edit', edit_survey_tung_path(@survey_tung) %> |
+<%= link_to "Destroy", @survey_tung, :confirm => 'Are you sure?', :method => :delete %> |
 <%= link_to 'Back', survey_tungs_path %>

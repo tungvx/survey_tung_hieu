@@ -26,6 +26,11 @@ class SurveyTungsController < ApplicationController
   def new
     @survey_tung = SurveyTung.new
 
+    3.times do  
+    question = @survey_tung.question_tungs.build  
+    4.times { question.answers.build }
+    end	
+
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @survey_tung }
