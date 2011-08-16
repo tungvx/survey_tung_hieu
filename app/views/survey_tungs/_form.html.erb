@@ -21,9 +21,10 @@
   </div>
 
   <% f.fields_for :question_tungs do |builder| %>  
-     <%= render 'question_fields', :f => builder %>
+     <%= render 'question_tung_fields', :f => builder %>
   <% end %>	
-	
+   
+  <p><%= link_to_add_fields "Add Question", f, :question_tungs %></p>
 
   <div class="actions">
     <%= f.submit %>
