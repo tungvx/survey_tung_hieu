@@ -19,11 +19,11 @@
     <%= f.label :user_id %><br />
     <%= f.text_field :user_id %>
   </div>
-
+    <ol id="questions_list">
   <% f.fields_for :question_tungs do |builder| %>  
      <%= render 'question_tung_fields', :f => builder %>
   <% end %>	
-   
+   </ol>
   <p><%= link_to_add_fields "Add Question", f, :question_tungs %></p>
 
   <div class="actions">
