@@ -26,10 +26,10 @@ class SurveyTungsController < ApplicationController
   def new
     @survey_tung = SurveyTung.new
 
-    3.times do  
+    #3.times do
     question = @survey_tung.question_tungs.build  
     4.times { question.answers.build }
-    end	
+    #end
 
     respond_to do |format|
       format.html # new.html.erb
