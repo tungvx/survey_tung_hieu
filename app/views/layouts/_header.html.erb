@@ -5,10 +5,12 @@
       <li><%= link_to "Home", '/' %></li>
       <li><%= link_to "About", '#' %></li>
       <li><%= link_to "Help", '#' %></li>
-      <li><%= link_to "Sign in", '#' %></li>
+      <li><%= link_to "Sign up", 'users/sign_up' %></li>
     </ul>
   </nav>
   <div class="search_field round">
-	Search here
+	<form id="search_form" method="get">
+		<input type="text" name="Search_text" value=" Search here">
+	</form>
   </div>
 </header>
