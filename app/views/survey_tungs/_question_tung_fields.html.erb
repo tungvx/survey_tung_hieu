@@ -1,9 +1,13 @@
+<% javascript 'dynamic_answers' %>
 <li>
 <div class="fields">
   <p>  
     <%= f.label :content, "Question #{@index}" %>
     <%= link_to_remove_fields "remove", f %><br />  
     <%= f.text_area :content, :rows => 3 %><br />
+    <%= f.label :type, "Question type:" %>
+    <%= select("question_tung", "type",{"Text" => "text", "Checkbox" => "checkbox", "Radio" => "radio", "Dropdown" => "dropdown"},
+:onchange => link_to_add_fields('', f, :answers))%>
   </p>  
   <ol><% f.fields_for :answers do |builder| %>
     <%= render 'answer_fields', :f => builder %>  

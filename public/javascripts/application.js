@@ -12,3 +12,5 @@ function add_fields(link, association, content) {
 
   $(link).up().previous("ol").insert(content.replace(regexp, new_id));
 }
+
+
