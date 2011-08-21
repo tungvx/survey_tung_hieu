@@ -1,25 +1,50 @@
-<h1>Listing survey_tungs</h1>
 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>User</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
 
-<% @survey_tungs.each do |survey_tung| %>
-  <tr>
-    <td><%= survey_tung.title %></td>
-    <td><%= survey_tung.user_id %></td>
-    <td><%= link_to 'Show', survey_tung %></td>
-    <td><%= link_to 'Edit', edit_survey_tung_path(survey_tung) %></td>
-    <td><%= link_to 'Destroy', survey_tung, :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
 
-<br />
+<div class="home span-23">
+	<h1>Listing survey_tungs</h1>
+	<table>
+	  <tr>
+	    <th>Title</th>
+	    <th>User</th>
+	    <th></th>
+	    <th></th>
+	    <th></th>
+	  </tr>
 
-<%= link_to 'New Survey tung', new_survey_tung_path %>
+	<% @survey_tungs.each do |survey_tung| %>
+	  <tr>
+	    <td><%= survey_tung.title %></td>
+	    <td><%= survey_tung.user_id %></td>
+	    <td><%= link_to 'Show', survey_tung %></td>
+	    <td><%= link_to 'Edit', edit_survey_tung_path(survey_tung) %></td>
+	    <td><%= link_to 'Destroy', survey_tung, :confirm => 'Are you sure?', :method => :delete %></td>
+	  </tr>
+	<% end %>
+	</table>
+
+	<br />
+
+	<%= link_to 'New Survey tung', new_survey_tung_path %>
+</div>
+
+
+<div class="span-8 border">
+	The first column<br>
+	The first column<br>
+	The first column<br>
+	The first column<br>
+</div>
+<div class="span-8 border">
+	The center column<br>
+	The center column<br>
+	The center column<br>
+	The center column<br>
+</div>
+<div class="span-7 last">
+	The last column<br>
+	The last column<br>
+	The last column<br>
+	The last column<br>
+</div>
+
