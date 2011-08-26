@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d7b938d-5f9e-4f29-9d21-657ecd802a54" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/survey_tungs/_question_tung_fields.html.erb" afterPath="$PROJECT_DIR$/app/views/survey_tungs/_question_tung_fields.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/survey_tungs/new.html.erb" afterPath="$PROJECT_DIR$/app/views/survey_tungs/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/survey_tungs/show.html.erb" afterPath="$PROJECT_DIR$/app/views/survey_tungs/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="survey.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="55" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,10 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_question_tung_fields.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_question_tung_fields.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/_question_tung_fields.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="36" selection-start="333" selection-end="333" vertical-scroll-proportion="0.26522595">
+            <state line="9" column="36" selection-start="333" selection-end="333" vertical-scroll-proportion="-5.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.23346303">
               <folding />
             </state>
           </provider>
@@ -142,6 +139,7 @@
         <option value="$PROJECT_DIR$/app/views/survey_tungs/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/survey_tungs/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/survey_tungs/_question_tung_fields.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -387,7 +385,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="744" extended-state="1" />
+    <frame x="0" y="0" width="1366" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -518,7 +516,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/_question_tung_fields.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="333" selection-end="333" vertical-scroll-proportion="0.26522595">
+        <state line="9" column="36" selection-start="333" selection-end="333" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.23346303">
           <folding />
         </state>
       </provider>
