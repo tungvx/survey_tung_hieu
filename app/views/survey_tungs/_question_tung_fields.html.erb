@@ -1,11 +1,11 @@
 <li>
 <div class="fields">
   <p>  
-    <%= f.label :content, "Question #{@index}" %>
+    <%= f.label :content, "Question" %>
     <%= link_to_remove_fields "remove", f %><br />  
     <%= f.text_area :content, :rows => 3 %><br />
     <%= f.label :type, "Question type:" %>
-    <%= select("question_tung", "type",{"Text" => "text", "Checkbox" => "checkbox", "Radio" => "radio", "Dropdown" => "dropdown"})%>
+    <%= f.select :type, ["Text","Combobox"], :prompt => "Select" %>
   </p>  
   <ol><% f.fields_for :answers do |builder| %>
     <%= render 'answer_fields', :f => builder %>  
