@@ -28,7 +28,6 @@ class SurveyTungsController < ApplicationController
 
     #3.times do
     question = @survey_tung.question_tungs.build
-    question.name = "Question #{question.id}"
     4.times { question.answers.build }
     #end
 
