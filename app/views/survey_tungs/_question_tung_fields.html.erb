@@ -4,8 +4,8 @@
     <%= f.label :content, "Question" %>
     <%= link_to_remove_fields "remove", f %><br />  
     <%= f.text_area :content, :rows => 3 %><br />
-    <%= f.label :type, "Question type:" %>
-    <%= f.select :type, ["Text","Combobox"], :prompt => "Select" %>
+    <%= f.label :question_type, "Question type:" %>
+    <%= f.select :question_type, ["Text","Combobox"], :prompt => "Select" %>
   </p>  
   <ol><% f.fields_for :answers do |builder| %>
     <%= render 'answer_fields', :f => builder %>  
