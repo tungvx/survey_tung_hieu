@@ -41,7 +41,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="67" selection-start="180" selection-end="216" vertical-scroll-proportion="0.24680074">
+            <state line="9" column="31" selection-start="180" selection-end="180" vertical-scroll-proportion="0.24680074">
               <folding />
             </state>
           </provider>
@@ -317,7 +317,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="744" extended-state="1" />
+    <frame x="0" y="0" width="1366" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -480,7 +480,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="67" selection-start="180" selection-end="216" vertical-scroll-proportion="0.24680074">
+        <state line="9" column="31" selection-start="180" selection-end="180" vertical-scroll-proportion="0.24680074">
           <folding />
         </state>
       </provider>
