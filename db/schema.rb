@@ -27,7 +27,6 @@ ActiveRecord::Schema.define(:version => 20110827103722) do
     t.integer  "survey_tung_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "name"
   end
 
   create_table "survey_tungs", :force => true do |t|
