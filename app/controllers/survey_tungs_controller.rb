@@ -28,7 +28,7 @@ class SurveyTungsController < ApplicationController
 
     #3.times do
     question = @survey_tung.question_tungs.build
-    4.times { question.answers.build }
+    2.times { question.answers.build }
     #end
 
     respond_to do |format|

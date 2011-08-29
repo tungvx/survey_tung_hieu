@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4d7b938d-5f9e-4f29-9d21-657ecd802a54" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/survey_tungs_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/survey_tungs_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/answer.rb" afterPath="$PROJECT_DIR$/app/models/answer.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/question_tung.rb" afterPath="$PROJECT_DIR$/app/models/question_tung.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/survey_tung.rb" afterPath="$PROJECT_DIR$/app/models/survey_tung.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/survey_tungs/_question_tung_fields.html.erb" afterPath="$PROJECT_DIR$/app/views/survey_tungs/_question_tung_fields.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/survey_tungs/show.html.erb" afterPath="$PROJECT_DIR$/app/views/survey_tungs/show.html.erb" />
     </list>
     <ignored path="survey.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,46 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_question_tung_fields.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_question_tung_fields.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/_question_tung_fields.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="72" selection-start="456" selection-end="456" vertical-scroll-proportion="0.27027026">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="19" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="80" selection-start="142" selection-end="142" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="158" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="10" column="81" selection-start="465" selection-end="465" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
@@ -89,7 +55,52 @@
       <file leaf-file-name="question_tung.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/question_tung.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="48" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+            <state line="8" column="21" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="answer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/answer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="32" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_answer_fields.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/_answer_fields.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question_tungs_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/question_tungs_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="survey_tungs_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/survey_tungs_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="5" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="62" selection-start="211" selection-end="211" vertical-scroll-proportion="-5.625">
+            <state line="9" column="31" selection-start="180" selection-end="180" vertical-scroll-proportion="0.24324325">
               <folding />
             </state>
           </provider>
@@ -127,13 +138,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/views/survey_tungs/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/survey_tungs_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110827103722_rename_column.rb" />
-        <option value="$PROJECT_DIR$/app/views/survey_tungs/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/survey_tungs/new.html.erb" />
         <option value="$PROJECT_DIR$/public/javascripts/dynamic_answers.js.erb" />
         <option value="$PROJECT_DIR$/public/javascripts/dynamic_answers.js" />
@@ -141,8 +149,11 @@
         <option value="$PROJECT_DIR$/public/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/survey_tungs/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/survey_tung.rb" />
-        <option value="$PROJECT_DIR$/app/models/question_tung.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/survey_tungs_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/answer.rb" />
         <option value="$PROJECT_DIR$/app/views/survey_tungs/_question_tung_fields.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/question_tung.rb" />
+        <option value="$PROJECT_DIR$/app/views/survey_tungs/show.html.erb" />
       </list>
     </option>
   </component>
@@ -466,31 +477,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/question_tungs/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/survey_tungs_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="61" selection-start="998" selection-end="998" vertical-scroll-proportion="0.86690015" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="24" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20110815024359_create_question_tungs.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="49" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" />
@@ -527,13 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="62" selection-start="211" selection-end="211" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/survey_tung.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="31" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
@@ -541,9 +520,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/question_tungs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/survey_tungs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="5" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/_answer_fields.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/answer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="32" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/_question_tung_fields.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="81" selection-start="465" selection-end="465" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/question_tung.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="48" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+        <state line="8" column="21" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -555,9 +576,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/_question_tung_fields.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/survey_tungs/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="72" selection-start="456" selection-end="456" vertical-scroll-proportion="0.27027026">
+        <state line="9" column="31" selection-start="180" selection-end="180" vertical-scroll-proportion="0.24324325">
           <folding />
         </state>
       </provider>
