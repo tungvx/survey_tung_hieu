@@ -5,10 +5,10 @@
     <%= link_to_remove_fields "remove", f %><br />  
     <%= f.text_area :content, :rows => 3 %><br />
     <label for="select_question_type">Type:</label>
-    <%= f.select :question_type, ["Text","Combobox"], {:prompt => "Select"},:class => "select", :onchange => 'typeSelected()'%>
+    <%= f.select :question_type, ["Text","Checkbox", "Radio", "Dropdown"], {:prompt => "Select"},:class => "select", :onchange => 'typeSelected()'%>
 </p>
 
-  <div id="answer_field">
+  <div id="answer_field" style="display: none">
       <ol>
         <% f.fields_for :answers do |builder| %>
             <%= render 'answer_fields', :f => builder %>
