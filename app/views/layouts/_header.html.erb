@@ -9,7 +9,7 @@
       <% if(user_signed_in?) %>
 	Welcome <li> <%= link_to current_user.email, '#' %><%= link_to "(logout)", '#' %> </li>
       <% else %>
-        <li> <%= link_to "Sign up","users/sign_up" %> </li>
+        <li> <%= link_to "Sign up",new_user_registration_url %> </li>
       <% end %> 
     </ul>
   </nav>
