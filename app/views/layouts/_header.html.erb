@@ -6,7 +6,11 @@
       <li><%= link_to "Home", '/' %></li>
       <li><%= link_to "About", '#' %></li>
       <li><%= link_to "Help", '#' %></li>
-      <li><%= link_to "Sign up", 'users/sign_up' %></li>
+      <% if(user_signed_in?) %>
+	Welcome <li> <%= link_to current_user.email, '#' %> </li>
+      <% else %>
+        <li> <%= link_to "Sign up","users/sign_up" %> </li>
+      <% end %> 
     </ul>
   </nav>
   <div class="search_field round">
