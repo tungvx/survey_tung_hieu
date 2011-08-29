@@ -4,15 +4,32 @@
   <img src="/images/home_banner.png">
 </div>
 <div class="span-6 last">
-  <h3><strong> Login </strong></h3>
-  <form id="login_form" method="post">
-	  <input type="text" name="username" value="username" size="28px">
-	  <input type="text" name="password" value="password" size="28px"><br>
-	  <input type="checkbox" name="remember_me"> Remember me <br>
-	  <input type="submit" name="login_button" value="Sign in">
-          <a href="#"> Forget password? </a><br><br>
-          <p>Don't have account? <a href="#">Sign Up</a></p>
-  </form>
+  <% if(!user_signed_in?) %>
+  <h3><b>Sign in</b></h3> 
+ 
+	<form accept-charset="UTF-8" action="/users/sign_in" class="user_new" id="user_new" method="post">
+		<div style="margin:0;padding:0;display:inline">
+			<input name="authenticity_token" type="hidden" value="daSkoiNhK/PVyL8vr7VmOBNKygBuYu2Nzod78+dX9FA=" />
+		</div>   
+		<input id="user_email" name="user[email]" size="25" type="email" value="" />
+		<input id="user_password" name="user[password]" size="25" type="password" value="" />
+
+		<input name="user[remember_me]" type="hidden" value="0" />
+		<input id="user_remember_me" name="user[remember_me]" type="checkbox" value="1" /><label for="user_remember_me">Remember me</label>
+
+		<input id="user_submit" name="commit" type="submit" value="Sign in" />
+	</form> 
+ 
+	<a href="/users/sign_up">Sign up</a><br /> 
+	<a href="/users/password/new">Forgot your password?</a><br /> 
+	<a href="/users/unlock/new">Didn't receive unlock instructions?</a><br /> 
+  <% else %>
+    <br>Welcome <%= current_user.email %> <br>
+    Your last login at ... </br>
+    ............ <br>
+    ............ <br>
+    
+  <% end %>
 </div>
 
 
