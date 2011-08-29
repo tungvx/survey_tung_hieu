@@ -1,4 +1,3 @@
-<% javascript 'dynamic_answers' %>
 <li>
 <div class="fields">
   <p>  
@@ -6,13 +5,16 @@
     <%= link_to_remove_fields "remove", f %><br />  
     <%= f.text_area :content, :rows => 3 %><br />
     <label for="select_question_type">Type:</label>
-    <%= f.select :question_type, ["Text","Combobox"], :prompt => "Select", :onChange => "typeSelected()"%>
-  </p>
-  <p id="answer_field">
-  <ol><% f.fields_for :answers do |builder| %>
-    <%= render 'answer_fields', :f => builder %>  
-  <% end %></ol>
-  <p><%= link_to_add_fields "Add Answer", f, :answers %></p>
-  </p>
+    <%= f.select :question_type, ["Text","Combobox"], {:prompt => "Select"},:class => "select", :onchange => 'typeSelected()'%>
+</p>
+
+  <div id="answer_field">
+      <ol>
+        <% f.fields_for :answers do |builder| %>
+            <%= render 'answer_fields', :f => builder %>
+        <% end %>
+      </ol>
+      <p><%= link_to_add_fields "Add Answer", f, :answers %></p>
+  </div>
 </div> 
 </li>
