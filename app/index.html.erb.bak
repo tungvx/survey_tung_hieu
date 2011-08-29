@@ -1,0 +1,54 @@
+<div class="span-23">
+</div>
+<div class="span-17 border">
+  <img src="/images/home_banner.png">
+</div>
+<div class="span-6 last">
+  <h3><strong> Login </strong></h3>
+  <form id="login_form" method="post">
+	  <input type="text" name="username" value="username" size="28px">
+	  <input type="text" name="password" value="password" size="28px"><br>
+	  <input type="checkbox" name="remember_me"> Remember me <br>
+	  <input type="submit" name="login_button" value="Sign in">
+          <a href="#"> Forget password? </a><br><br>
+          <p>Don't have account? <a href="#">Sign Up</a></p>
+  </form>
+</div>
+
+
+<div class="span-12 border">
+	<h1>Newest surveys</h1>
+	<table>
+	  <tr>
+	    <th>Title</th>
+	    <th>User</th>
+	    <th></th>
+	    <th></th>
+	    <th></th>
+	  </tr>
+
+	<% @survey_tungs.each do |survey_tung| %>
+	  <tr>
+	    <td><%= survey_tung.title %></td>
+	    <td><%= survey_tung.user_id %></td>
+	    <td><%= link_to 'Show', survey_tung %></td>
+	    <td><%= link_to 'Edit', edit_survey_tung_path(survey_tung) %></td>
+	    <td><%= link_to 'Destroy', survey_tung, :confirm => 'Are you sure?', :method => :delete %></td>
+	  </tr>
+	<% end %>
+	</table>
+
+	<br />
+
+	<%= link_to 'New Survey tung', new_survey_tung_path %>
+
+</div>
+<div class="span-11 last">
+	<h1> Most viewed surveys</h1>
+</div>
+
+
+
+
+
+
